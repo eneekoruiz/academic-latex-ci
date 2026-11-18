@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+env/
+venv/
+
+# LaTeX build outputs
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Sensitive auth credentials & cookies (NEVER COMMIT)
+.olauth
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+session.json
+
+# Local artifacts
+overleaf_downloaded.pdf
+*.docx

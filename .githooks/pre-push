@@ -1,0 +1,4 @@
+#!/bin/sh
+# academic-latex-ci pre-push verification hook
+python -c "import academic_latex_ci; print('academic-latex-ci hook initialized')"
+exit 0
